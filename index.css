@@ -6,8 +6,19 @@
     box-sizing: border-box;
 }
 
-body {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* canvas */
+
+
+
+/* settings*/
+
+#settings-menu {
+    background-color: grey;
 }
