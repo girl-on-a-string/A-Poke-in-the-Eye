@@ -1,3 +1,40 @@
+:root {
+    /* default*/
+
+    --df-red: red;
+    --df-orange: orange;
+    --df-yellow: yellow;
+    --df-green: green;
+    --df-blue: blue;
+    --df-purple: purple;
+    --df-pink: pink;
+
+    /* default pastels */
+
+    --df-p-red: ;
+    --df-p-orange: ;
+    --df-p-yellow: ;
+    --df-p-green: ;
+    --df-p-blue: ;
+    --df-p-purple: ;
+    --df-p-pink: ;
+
+    /* default dark */
+
+    --df-d-red: ;
+    --df-d-orange: ;
+    --df-d-yellow: ;
+    --df-d-green: ;
+    --df-d-blue: ;
+    --df-d-purple: ;
+    --df-d-pink: ;
+
+    /* default neutrals */
+
+    --df-black: black;
+    --df-white: white;
+}
+
 /* overview */
 
 * {
@@ -56,7 +93,15 @@ svg {
     padding: 10px;
 }
 
-/* eye */
+/* eye and animation area stuff */
+
+#animation-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
 
 #eye {
     width: 500px;
@@ -65,5 +110,5 @@ svg {
     height: 500px;
     border-radius: 100% 0%;
     transform: rotate(45deg);
-    margin: 100px;    
+    margin: 100px;   
 }
