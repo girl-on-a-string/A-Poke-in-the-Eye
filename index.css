@@ -13,7 +13,39 @@
     flex-direction: row-reverse;
 }
 
+/* main content */
+
+main {
+    width: 100%;
+}
+
 /* settings*/
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button:hover {
+    animation-name: settings-icon;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+svg {
+    width: 50px;
+    height: auto;
+}
+
+@keyframes settings-icon {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 #settings-menu {
     background-color: grey;
