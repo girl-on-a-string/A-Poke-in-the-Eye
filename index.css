@@ -17,6 +17,7 @@
 
 main {
     width: 100%;
+    background-color: darkgray;
 }
 
 /* settings*/
@@ -51,4 +52,18 @@ svg {
     background-color: grey;
     height: 100vh;
     width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* eye */
+
+#eye {
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    height: 500px;
+    border-radius: 100% 0%;
+    transform: rotate(45deg);
+    margin: 100px;    
 }
