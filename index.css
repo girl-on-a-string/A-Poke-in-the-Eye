@@ -28,7 +28,7 @@ button {
 
 button:hover {
     animation-name: settings-icon;
-    animation-duration: 2s;
+    animation-duration: 0.7s;
     animation-iteration-count: 1;
 }
 

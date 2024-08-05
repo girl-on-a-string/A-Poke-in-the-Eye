@@ -16,8 +16,16 @@ const settingsMenu = document.getElementById("settings-menu");
 settingsMenu.style.display = "none";
 
 function showSettings () {
-    settingsMenu.style.display = "block";
+
+    if (settingsMenu.style.display === "none") {
+        settingsMenu.style.display = "block";
+    } else {
+        settingsMenu.style.display = "none";
+    }
 }
 
+toggleBtn.addEventListener("click", () => {
+    showSettings();
+});
 
 
